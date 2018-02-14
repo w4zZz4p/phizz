@@ -153,11 +153,6 @@ module assembly() {
   }
 }
 
-      translate([0, -(triangleSide/2/2 - triangleSide/2/3), 0]) {
-    scale([0.9, 0.9, 2]) {
-        triangle();
-      }
-    }
 
 part();
 //triangle();
