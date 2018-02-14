@@ -8,4 +8,6 @@ module triangle(){
   }
 }
 
-triangle();
+color(COLOR, 1) {
+  triangle();
+}

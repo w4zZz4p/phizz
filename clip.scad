@@ -30,4 +30,6 @@ module clip(){
   }
 }
 
-clip();
+color(COLOR, 1) {
+  clip();
+}

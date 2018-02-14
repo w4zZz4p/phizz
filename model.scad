@@ -6,7 +6,7 @@ use <part.scad>;
 use <assembly.scad>;
 
 
-color("LimeGreen", 1) {
+color(COLOR, 1) {
   part();
   //assembly();
   //triangle();

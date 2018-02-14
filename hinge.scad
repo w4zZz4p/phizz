@@ -41,4 +41,6 @@ module hinge(){
   }
 } 
 
-hinge();
+color(COLOR, 1) {
+  hinge();
+}

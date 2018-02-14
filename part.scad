@@ -46,4 +46,6 @@ module part() {
   }
 }
 
-part();
+color(COLOR, 1) {
+  part();
+}

@@ -19,4 +19,6 @@ module assembly() {
   }
 }
 
-assembly();
+color(COLOR, 1) {
+  assembly();
+}
