@@ -6,9 +6,9 @@ use <part.scad>;
 use <assembly.scad>;
 
 
-color(COLOR, 1) {
-  part();
-  //assembly();
+color(COLOR) {
+  //part();
+  assembly();
   //triangle();
   //hinge();
   //clip();
