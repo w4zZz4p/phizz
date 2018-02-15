@@ -39,14 +39,14 @@ module part() {
   }
   translate([TRIANGLE_SIDE/4, 0, 0]) {
     rotate(135, [0, 0, 1]) {
-      translate([0, -TRIANGLE_THICKNESS/2, 0]) {
+      translate([0, -TRIANGLE_THICKNESS/2-JOINT_TOLLERANCE, 0]) {
         hinge();
       }
     }
   }
   translate([-TRIANGLE_SIDE/4, 0, 0]) {
     rotate(-135, [0, 0, 1]) {
-      translate([0, -TRIANGLE_THICKNESS/2, 0]) {
+      translate([0, -TRIANGLE_THICKNESS/2-JOINT_TOLLERANCE, 0]) {
         clip();
       }
     }

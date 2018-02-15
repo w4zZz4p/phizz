@@ -6,7 +6,7 @@ module clip(){
   hinge_side = max_width/6;
   width = (max_width-hinge_side*2) - JOINT_TOLLERANCE;
   size = TRIANGLE_THICKNESS;
-  corner = 0.5;
+  corner = 0.8;
 
   echo("clip width:", width);
     

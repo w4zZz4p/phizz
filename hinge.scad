@@ -6,7 +6,7 @@ module hinge(){
   width = JOINT_WIDTH-JOINT_TOLLERANCE;
   size = TRIANGLE_THICKNESS;
   side = width/6;
-  corner = 0.5;
+  corner = 0.8;
   
   echo("hinge widths (all, side, cylinder):", width, side, width-side*2);
     
@@ -42,7 +42,7 @@ module hinge(){
   }
   rotate(FACE_ANGLE/2, [1, 0, 0]) { // Required so that cylinder face is parallel to plane
     rotate(90, [0, 1, 0]) {
-      cylinder(h=width, r=size/2*0.8/2, center=true);
+      cylinder(h=width, r=size/2*0.7/2, center=true);
     }
   }
 } 
