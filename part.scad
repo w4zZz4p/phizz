@@ -1,12 +1,12 @@
 include <vars.scad>;
-use <triangle.scad>;
+use <base.scad>;
 use <hinge.scad>;
 use <clip.scad>;
 
 module part() {
   difference() {
     union(){
-      triangle();
+      base();
       translate([-TRIANGLE_SIDE/8, -TRIANGLE_SIDE/4, 0]) {
         translate([0, 0, TRIANGLE_THICKNESS/2]) {
           rotate(-45, [1, 0, 0]) {
