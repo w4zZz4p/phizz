@@ -3,7 +3,7 @@ use <triangle.scad>;
 
 STEP = 0.2;
 SCALE_STEP = 1 - STEP;
-ITERATIONS = 9;
+ITERATIONS = 5;
 
 module base() {
   difference() {
