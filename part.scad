@@ -18,7 +18,7 @@ module part() {
         translate([0, 0, TRIANGLE_THICKNESS/2])
           rotate(-45, [1, 0, 0])
             translate([0, -TRIANGLE_THICKNESS/2, -TRIANGLE_THICKNESS/2])
-              clip();
+              clip(false, true);
     }
     
     translate([0, 0, -TRIANGLE_THICKNESS])

@@ -8,10 +8,10 @@ use <assembly.scad>;
 
 color(COLOR) {
   part();
-  //assembly();
-  //triangle();
-  //hinge();
-  //clip();
+  assembly();
+  triangle();
+  hinge();
+  clip();
 }
 
 
